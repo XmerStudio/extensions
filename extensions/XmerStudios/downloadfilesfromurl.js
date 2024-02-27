@@ -1,12 +1,16 @@
 // ID: downloadfromurl
 // Owner: XmerStudios
 // Description: Download files from URL
+// v1.0.3
 
 class DownloadFromURL {
   getInfo() {
     return {
       id: 'downloadfromurl',
       name: 'Download from URL',
+	  color1: "#fc0303",
+      color2: "#db2727",
+      color3: "#912424",
       blocks: [
         {
           opcode: 'download',
